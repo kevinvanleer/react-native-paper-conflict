@@ -1,0 +1,7 @@
+#!/bin/bash -x
+
+rm -rf node_modules
+rm -rf yarn.lock
+yarn install
+yarn build:clean
+yarn compile
